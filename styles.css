@@ -417,3 +417,39 @@ button:focus-visible {
     padding: 24px;
   }
 }
+.community-request-form {
+  display: grid;
+  gap: 0.75rem;
+  max-width: 760px;
+  margin-top: 2rem;
+}
+
+.community-request-form label {
+  font-weight: 700;
+}
+
+.community-request-form input,
+.community-request-form textarea {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  border: 1px solid #cfcfcf;
+  font: inherit;
+  background: #fff;
+}
+
+.community-request-form textarea {
+  resize: vertical;
+}
+
+.community-request-form .button {
+  width: fit-content;
+  margin-top: 0.5rem;
+  border: 0;
+  cursor: pointer;
+}
+
+.form-note {
+  max-width: 760px;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
