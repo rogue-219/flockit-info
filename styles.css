@@ -453,3 +453,23 @@ button:focus-visible {
   margin-top: 1.5rem;
   font-size: 0.95rem;
 }
+/* =========================================================
+   SUPPORT THE WORK
+   ========================================================= */
+
+.support-cta {
+  margin-top: 2.5rem;
+  padding: 2rem;
+  border: 2px solid var(--black);
+  border-left: 6px solid var(--red);
+  background: var(--white);
+}
+
+.support-cta h3 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.support-cta p:last-child {
+  margin-bottom: 0;
+}
