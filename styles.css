@@ -133,15 +133,15 @@ a {
   content: "";
   position: absolute;
   top: 50%;
-  right: -70px;
-  width: 720px;
-  height: 500px;
+  right: -120px;
+  width: 760px;
+  height: 520px;
   transform: translateY(-50%);
   background-image: url("eye-background.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  opacity: 0.42;
+  opacity: 0.28;
   pointer-events: none;
 }
 
