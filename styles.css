@@ -644,7 +644,7 @@ button:focus-visible {
   font-size: 1.1rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .sharing-section h2 {
     font-size: 2rem;
   }
