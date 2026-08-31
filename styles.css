@@ -1154,3 +1154,50 @@ button:focus-visible {
   background: var(--red);
   color: var(--white);
 }
+
+/* =========================================================
+   TAKE ACTION CHECKLIST
+   ========================================================= */
+
+.action-checklist {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  margin-top: 2rem;
+  background: var(--black);
+  border: 2px solid var(--black);
+}
+
+.action-checklist-item {
+  padding: 1.75rem 2rem;
+  background: var(--white);
+}
+
+.action-checklist-item span {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--red);
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.action-checklist-item strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.action-checklist-item p {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .action-checklist {
+    grid-template-columns: 1fr;
+  }
+
+  .action-checklist-item {
+    padding: 1.5rem;
+  }
+}
