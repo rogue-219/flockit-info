@@ -1207,7 +1207,7 @@ button:focus-visible {
    ========================================================= */
 
 .real-world-example {
-  background: transparent;
+  background: var(--black);
   color: var(--white);
 }
 
