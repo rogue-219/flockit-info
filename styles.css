@@ -1201,3 +1201,29 @@ button:focus-visible {
     padding: 1.5rem;
   }
 }
+
+/* =========================================================
+   REAL-WORLD EXAMPLE
+   ========================================================= */
+
+.real-world-example {
+  background: var(--black);
+  color: var(--white);
+}
+
+.real-world-example .eyebrow {
+  color: var(--red);
+}
+
+.real-world-example h2 {
+  color: var(--white);
+}
+
+.real-world-example a {
+  color: var(--white);
+  font-weight: 800;
+}
+
+.real-world-example a:hover {
+  color: var(--red);
+}
