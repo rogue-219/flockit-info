@@ -714,3 +714,90 @@ button:focus-visible {
     padding: 1.25rem 1.5rem;
   }
 }
+/* =========================================================
+   COMMUNITY PROFILE — PROPOSED EXPANSION
+   ========================================================= */
+
+.expansion-section {
+  margin: 3.5rem 0;
+}
+
+.expansion-section h2 {
+  margin: 0.5rem 0 1rem;
+  font-size: 2.5rem;
+}
+
+.expansion-intro {
+  max-width: 850px;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.expansion-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  background: var(--black);
+  border: 2px solid var(--black);
+}
+
+.expansion-item {
+  padding: 1.5rem 2rem;
+  background: var(--white);
+}
+
+.expansion-item span {
+  font-weight: 800;
+  line-height: 1.35;
+}
+
+.expansion-removed {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-top: 1px;
+  padding: 1.5rem 2rem;
+  background: #f2f2f2;
+  border: 2px solid var(--black);
+  border-top: 0;
+}
+
+.expansion-label {
+  color: var(--red);
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.expansion-removed strong {
+  font-size: 1.1rem;
+}
+
+.expansion-claim {
+  margin-top: 2rem;
+  padding: 2rem;
+  background: var(--black);
+  color: var(--white);
+}
+
+.expansion-claim p {
+  max-width: 950px;
+  margin: 0.75rem 0 0;
+}
+
+@media (max-width: 768px) {
+  .expansion-section h2 {
+    font-size: 2rem;
+  }
+
+  .expansion-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .expansion-item,
+  .expansion-removed,
+  .expansion-claim {
+    padding: 1.5rem;
+  }
+}
