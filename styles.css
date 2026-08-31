@@ -1215,6 +1215,10 @@ button:focus-visible {
   padding: 3rem;
   background: var(--black);
 }
+.real-world-example .content-width {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
 
 .real-world-example .eyebrow {
   color: var(--red);
@@ -1231,4 +1235,10 @@ button:focus-visible {
 
 .real-world-example a:hover {
   color: var(--red);
+}
+@media (max-width: 768px) {
+  .real-world-example .content-width {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
 }
