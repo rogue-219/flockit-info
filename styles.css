@@ -860,3 +860,74 @@ button:focus-visible {
     padding: 1.5rem;
   }
 }
+/* =========================================================
+   COMMUNITY PROFILE — PUBLIC COST
+   ========================================================= */
+
+.cost-section {
+  margin: 3.5rem 0;
+}
+
+.cost-section h2 {
+  margin: 0.5rem 0 1.75rem;
+  font-size: 2.5rem;
+}
+
+.cost-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  background: var(--black);
+  border: 2px solid var(--black);
+}
+
+.cost-item {
+  padding: 2rem;
+  background: var(--white);
+}
+
+.cost-label {
+  display: block;
+  margin-bottom: 0.75rem;
+  color: var(--red);
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.cost-item strong {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-size: 2rem;
+  line-height: 1.1;
+}
+
+.cost-item p {
+  margin: 0;
+}
+
+.cost-detail {
+  margin-top: 0.75rem !important;
+  font-size: 0.95rem;
+}
+
+.cost-note {
+  margin: 1.5rem 0 0;
+  max-width: 950px;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .cost-section h2 {
+    font-size: 2rem;
+  }
+
+  .cost-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cost-item {
+    padding: 1.5rem;
+  }
+}
