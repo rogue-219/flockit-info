@@ -658,3 +658,59 @@ button:focus-visible {
     padding: 1.5rem;
   }
 }
+/* =========================================================
+   COMMUNITY PROFILE — CONTRACT RENEWAL
+   ========================================================= */
+
+.renewal-section {
+  margin: 3.5rem 0;
+}
+
+.renewal-section h2 {
+  margin: 0.5rem 0 1.75rem;
+  font-size: 2.5rem;
+}
+
+.renewal-facts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  margin-bottom: 1.75rem;
+  background: var(--black);
+  border: 2px solid var(--black);
+}
+
+.renewal-facts > div {
+  padding: 1.5rem 2rem;
+  background: var(--white);
+}
+
+.renewal-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--red);
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.renewal-facts strong {
+  display: block;
+  font-size: 1.1rem;
+  line-height: 1.35;
+}
+
+@media (max-width: 768px) {
+  .renewal-section h2 {
+    font-size: 2rem;
+  }
+
+  .renewal-facts {
+    grid-template-columns: 1fr;
+  }
+
+  .renewal-facts > div {
+    padding: 1.25rem 1.5rem;
+  }
+}
