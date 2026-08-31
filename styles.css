@@ -1207,8 +1207,13 @@ button:focus-visible {
    ========================================================= */
 
 .real-world-example {
-  background: var(--black);
+  background: transparent;
   color: var(--white);
+}
+
+.real-world-example .content-width {
+  padding: 3rem;
+  background: var(--black);
 }
 
 .real-world-example .eyebrow {
