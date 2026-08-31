@@ -932,3 +932,78 @@ button:focus-visible {
     padding: 1.5rem;
   }
 }
+/* =========================================================
+   COMMUNITY PROFILE — SOURCE RECORDS
+   ========================================================= */
+
+.profile-records {
+  margin: 3.5rem 0;
+}
+
+.profile-records h2 {
+  margin: 0.5rem 0 1rem;
+  font-size: 2.5rem;
+}
+
+.profile-records-intro {
+  max-width: 850px;
+  margin-bottom: 2rem;
+  font-size: 1.05rem;
+}
+
+.records-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  background: var(--black);
+  border: 2px solid var(--black);
+}
+
+.record-item {
+  padding: 1.75rem 2rem;
+  background: var(--white);
+}
+
+.record-type {
+  display: block;
+  margin-bottom: 0.6rem;
+  color: var(--red);
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.record-item strong {
+  display: block;
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+  line-height: 1.35;
+}
+
+.record-item p {
+  margin: 0 0 1rem;
+}
+
+.record-item a,
+.record-status {
+  font-weight: 700;
+}
+
+.record-status {
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .profile-records h2 {
+    font-size: 2rem;
+  }
+
+  .records-list {
+    grid-template-columns: 1fr;
+  }
+
+  .record-item {
+    padding: 1.5rem;
+  }
+}
