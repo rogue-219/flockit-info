@@ -801,3 +801,61 @@ button:focus-visible {
     padding: 1.5rem;
   }
 }
+/* =========================================================
+   COMMUNITY PROFILE — OPEN QUESTIONS
+   ========================================================= */
+
+.unknown-section {
+  margin: 3.5rem 0;
+}
+
+.unknown-section h2 {
+  margin: 0.5rem 0 1.75rem;
+  font-size: 2.5rem;
+}
+
+.unknown-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  background: var(--black);
+  border: 2px solid var(--black);
+}
+
+.unknown-item {
+  display: flex;
+  gap: 1.25rem;
+  padding: 1.75rem 2rem;
+  background: var(--white);
+}
+
+.unknown-item span {
+  flex: 0 0 auto;
+  color: var(--red);
+  font-size: 0.9rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.unknown-item p {
+  margin: 0;
+}
+
+.unknown-note {
+  margin: 1.5rem 0 0;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .unknown-section h2 {
+    font-size: 2rem;
+  }
+
+  .unknown-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .unknown-item {
+    padding: 1.5rem;
+  }
+}
