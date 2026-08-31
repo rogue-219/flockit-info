@@ -1207,20 +1207,18 @@ button:focus-visible {
    ========================================================= */
 
 .real-world-example {
-  background: var(--black);
-  color: var(--white);
+  background: var(--white);
+  color: var(--black);
 }
 
 .real-world-example .content-width {
   padding: 3rem;
   background: var(--black);
-}
-.real-world-example .content-width {
-  padding-left: 3rem;
-  padding-right: 3rem;
+  color: var(--white);
 }
 
 .real-world-example .eyebrow {
+  margin-bottom: 1rem;
   color: var(--red);
 }
 
@@ -1233,12 +1231,13 @@ button:focus-visible {
   font-weight: 800;
 }
 
-.real-world-example a:hover {
+.real-world-example a:hover,
+.real-world-example a:focus {
   color: var(--red);
 }
+
 @media (max-width: 768px) {
   .real-world-example .content-width {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding: 1.5rem;
   }
 }
