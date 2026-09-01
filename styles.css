@@ -529,6 +529,14 @@ button:focus-visible {
     padding: 1.25rem 1.5rem;
   }
 }
+.profile-verified {
+  grid-column: 1 / -1;
+  margin: 0;
+  padding: 0 2rem 1.25rem;
+  background: var(--black);
+  color: #b8bec5;
+  font-size: 0.85rem;
+}
 /* =========================================================
    COMMUNITY PROFILE — VEHICLE FINGERPRINT
    ========================================================= */
