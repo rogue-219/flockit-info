@@ -638,7 +638,9 @@ button:focus-visible {
 .sharing-card p {
   margin: 0;
 }
-
+.technology-section + .technology-section {
+  margin-top: 4rem;
+}
 .sharing-question {
   margin-top: 1px;
   padding: 2rem;
