@@ -1,0 +1,29 @@
+PUBLIC-RECORDS REQUEST WORKSHEET
+
+This is a blank self-service worksheet, not a submission to FlockIt.info.
+Download and edit it locally. No request is sent by downloading this file.
+Check the agency's official website for the correct recipient and process.
+Public-records rights and exceptions depend on the applicable jurisdiction.
+
+Agency: [name and jurisdiction]
+Time period: [start and end dates]
+
+I request copies of the following existing records concerning [agency]'s
+Flock Safety services for the period above. Please use the selections below
+that describe the records sought; remove categories you do not need.
+
+- Executed orders, agreements, amendments, and renewal or non-renewal notices.
+- Records establishing installation, validation, and service commencement dates.
+- Deployment Plans and records identifying contracted and installed quantities.
+- Invoices, payment records, grant awards/amendments, and funding approvals.
+- Current use, retention, sharing, access-control, and auditing policies.
+- Records supporting a specified public performance claim: [identify claim/date].
+
+Please provide electronic copies where available. If portions are withheld,
+please identify the basis for withholding and provide disclosable portions.
+Please advise me of any anticipated fees before incurring them.
+
+Reply contact: [use only the contact information required by the agency's process]
+
+Keep a local copy of the final request and any acknowledgment or responses.
+This worksheet does not establish that any record exists or must be disclosed.
